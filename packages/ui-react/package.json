@@ -1,0 +1,47 @@
+{
+	"name": "ui-react",
+	"version": "1.0.0",
+	"description": "Offset as a React component",
+	"keywords": [
+		"wysiwyg",
+		"offset"
+	],
+	"author": "Mohit Karekar <karekar.mohit@gmail.com>",
+	"homepage": "https://github.com/shaaijs/offset#readme",
+	"license": "MIT",
+	"main": "lib/index.tsx",
+	"directories": {
+		"lib": "lib",
+		"test": "__tests__"
+	},
+	"files": [
+		"lib"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/shaaijs/offset.git"
+	},
+	"scripts": {
+		"test": "echo \"Error: run tests from root\" && exit 1",
+		"start": "webpack-dev-server --open --hot",
+		"build": "webpack"
+	},
+	"bugs": {
+		"url": "https://github.com/shaaijs/offset/issues"
+	},
+	"devDependencies": {
+		"@types/react": "^16.9.49",
+		"@types/react-dom": "^16.9.8",
+		"awesome-typescript-loader": "^5.2.1",
+		"css-loader": "^4.3.0",
+		"html-webpack-plugin": "^4.5.0",
+		"mini-css-extract-plugin": "^0.11.2",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"source-map-loader": "^1.1.0",
+		"typescript": "^4.0.3",
+		"webpack": "^4.44.2",
+		"webpack-cli": "^3.3.12",
+		"webpack-dev-server": "^3.11.0"
+	}
+}
