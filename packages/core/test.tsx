@@ -1,5 +1,11 @@
 import { Editor } from './lib';
 
-document.addEventListener('load', () => {
-    document.getElementById('output').appendChild(Editor())
+const editor = new Editor({});
+
+document.getElementById('output').appendChild(editor.root.node);
+let button = document.createElement('button');
+button.textContent = 'Output'
+button.addEventListener('click', () => {
+    console.log(editor.root);
 })
+document.body.appendChild(button);
